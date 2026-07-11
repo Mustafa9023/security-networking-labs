@@ -5,7 +5,7 @@ This repository is for documenting my general labs but mostly are security and n
 - coming soon
 
 ### 🔹Networking Labs:
-- coming soon
+- [Lab.1 Enterprise Network Simulation](networking/enterprise-network-simulation.md)
 
 ### 🔹Other Labs:
 - coming soon
