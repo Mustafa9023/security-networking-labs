@@ -49,7 +49,7 @@ Since this is a lab environment and there is no real internet connection availab
 <img width="1196" height="672" alt="image" src="https://github.com/user-attachments/assets/c8cc1ef4-1547-4445-b46a-481cf49c81f6" />
 
 
-In this picture we see that the test for pinging the interent working correctly.
+In this picture we see that the test for pinging the interent working correctly..
 
 <img width="490" height="357" alt="image" src="https://github.com/user-attachments/assets/3a1af6aa-baee-44a2-a8b5-cffa9abf5dcd" />
 
