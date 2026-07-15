@@ -73,3 +73,10 @@ Notice the difference between the permissions before and after the configuration
 
 <img width="780" height="426" alt="image" src="https://github.com/user-attachments/assets/306d7cb5-8db1-4776-a463-7a3e6e40983b" />
 
+
+- In the next step, I created a confidential file in the `patient_records` directory using the `dr_smith` account. I then attempted to add the immutable attribute to the file so that it could not be deleted or modified. However, as shown in the command-line interface (CLI), the command failed because it required `sudo` privileges. Since the `dr_smith` user is not a member of the `sudo` group, I switched back to my main account, `mostafa`, which has `sudo` privileges, and used the `sudo chattr +i` command to make the file immutable. After setting the immutable attribute, I verified that the file could no longer be deleted. The complete set of commands is shown in the screenshot below.
+ 
+
+<img width="977" height="447" alt="image" src="https://github.com/user-attachments/assets/69f251da-854c-4a74-99a7-c05af61cf7b2" />
+<img width="805" height="112" alt="image" src="https://github.com/user-attachments/assets/2c5502e5-c4bc-4894-82db-eacf53c7f16c" />
+
