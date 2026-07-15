@@ -80,3 +80,12 @@ Notice the difference between the permissions before and after the configuration
 <img width="977" height="447" alt="image" src="https://github.com/user-attachments/assets/69f251da-854c-4a74-99a7-c05af61cf7b2" />
 <img width="805" height="112" alt="image" src="https://github.com/user-attachments/assets/2c5502e5-c4bc-4894-82db-eacf53c7f16c" />
 
+- After completing all the configurations in this lab, I performed several tests to verify that everything had been configured correctly and that the permissions and security settings were working as intended. 
+
+<img width="857" height="621" alt="image" src="https://github.com/user-attachments/assets/1500a1e4-f6de-47e7-a332-395578565b9c" />
+<img width="870" height="557" alt="image" src="https://github.com/user-attachments/assets/ce7d961a-1fc3-41d7-82f5-3bef5f0afd8b" />
+
+
+## The end of the lab
+
+
