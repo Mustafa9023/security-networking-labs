@@ -18,7 +18,7 @@ The hosptial stracture is as follows:
 
 
 ## File Server Requirements:
-### /srv/securehealth/patient_records/
+### 1.  /srv/securehealth/patient_records/
 - Doctors full access
 - Nurses read only via ACL
 - Pharmacy read only via ACL
@@ -30,3 +30,46 @@ The hosptial stracture is as follows:
 Notice the difference between the permissions before and after the configuration. Apart from the difference in standard permissions, we can also see the +, T, and s symbols appearing. This confirms that the sticky bit, SGID inheritance, and ACL have all been successfully configured.
 
 <img width="891" height="536" alt="image" src="https://github.com/user-attachments/assets/8fa6dcab-bd94-42cb-9de3-9f7e7ef41ff5" />
+
+### 2. /srv/securehealth/prescriptions/
+
+- Doctors full access
+- Pharmacy full access via ACL
+- Nurses read only via ACL
+- Administration NO access
+- Files auto-inherit medical group
+- Nobody can delete others' files
+
+- For prescriptions directory i will use the same commands that i used before with patient_records directory. the screen shot from the CLI is showen below:
+<img width="850" height="487" alt="image" src="https://github.com/user-attachments/assets/a1ed9934-4502-4b38-9dee-27331321650e" />
+
+
+### 3./srv/securehealth/nursing_reports/
+
+- Nurses full access
+- Doctors read only via ACL
+- Administration NO access
+- Pharmacy NO access
+- Files auto-inherit nursing group
+- Nobody can delete others' files
+
+  <img width="751" height="400" alt="image" src="https://github.com/user-attachments/assets/7aa36c85-a74f-4f22-9e8e-11395d955f07" />
+
+### 4. /srv/securehealth/admin_finance/
+
+- Administration full access
+- NO access for anyone else
+- Files auto-inherit administration group
+- Nobody can delete others' files
+- All files must be protected with immutable attribute automatically
+<img width="922" height="196" alt="image" src="https://github.com/user-attachments/assets/5512779c-a122-4204-ac66-0425cb6420fb" />
+
+### 5. /srv/securehealth/hospital_notices/
+
+- Administration full access
+- Everyone else read only via ACL
+- Files auto-inherit administration group
+- Nobody can delete others' announcement files
+
+<img width="780" height="426" alt="image" src="https://github.com/user-attachments/assets/306d7cb5-8db1-4776-a463-7a3e6e40983b" />
+
