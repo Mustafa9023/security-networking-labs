@@ -13,11 +13,8 @@ The hospital's organizational structure — the users, groups, and departments u
 
 The first thing I did was create the users and groups shown in the diagram above. I used the `passwd` command to set a password for each user so I could log in to their accounts later, and added each user to their corresponding group. After creating the users and groups, I checked `/etc/passwd` and `/etc/group` to confirm that the new users and groups had been created successfully.
 
-<img width="465" height="109" alt="image" src="https://github.com/user-attachments/assets/4b5e66dd-2549-41c0-a5a5-2f477c856ad8" />
-<img width="502" height="211" alt="image" src="https://github.com/user-attachments/assets/640ad80a-08d5-4ee7-92a6-592c444cdedc" />
-<img width="400" height="202" alt="image" src="https://github.com/user-attachments/assets/e6c4e0a0-e6c1-4729-a6aa-2da72cee5217" />
-<img width="427" height="402" alt="image" src="https://github.com/user-attachments/assets/93e14e4d-0648-4c18-81e3-befbbc7cfb16" />
-<img width="617" height="241" alt="image" src="https://github.com/user-attachments/assets/c72bf675-a6c8-45ce-af77-49674aa09575" />
+<img width="400" height="996" alt="combined-image" src="https://github.com/user-attachments/assets/080d6c19-235a-4bb3-9e18-075cc38eacdb" />
+
 
 ## Step 2: Creating Directories
 
