@@ -2,7 +2,10 @@
 
 The hosptial stracture is as follows:
 
-<img width="357" height="226" alt="image" src="https://github.com/user-attachments/assets/2167c1db-06f1-4d5b-88f6-0f4cf9c979f5" />
+
+<img width="300" height="112" alt="image" src="https://github.com/user-attachments/assets/0de695e1-a335-42af-9a65-11f8eaca2da9" />
+
+
 
 - The first thing I did was create the users and groups shown in the picture above. I then used the `passwd` command to set passwords for each user so that I could log in to their accounts later. Finally, I added each user to the corresponding group. and after the creation of the users and the groups i viewd the /etc/passwd and etc/group to make sure that the newly added users and gorups are existed on the system
 
