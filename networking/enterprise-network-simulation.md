@@ -54,5 +54,7 @@ In this picture we see that the test for pinging the interent working correctly.
 <img width="490" height="357" alt="image" src="https://github.com/user-attachments/assets/3a1af6aa-baee-44a2-a8b5-cffa9abf5dcd" />
 
 
--On thing i also remembered from CCNA. Not all ports on the switches were used and for a security best practices, these ports must be Administrevly down. The ports on the switches are not down by defaults ( Unlike the siwtch)
+-On thing i also remembered from CCNA. Not all ports on the switches were used and for a security best practices, these ports must be Administrevly down. The ports of the router is administrarvly down by default, whereas the swtichs port are not.
+
+
 
