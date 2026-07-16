@@ -1,4 +1,5 @@
-# SecureHealth Hospital — Secure File Server Lab
+# SecureHealth Hospital — Secure File Server Lab - 07/16/2026
+
 
 This lab is based on a fictional hospital, **SecureHealth Hospital**. My task was to set up a secure file server that complies with healthcare data protection standards. For this lab, I used **Kubuntu Linux** running in a virtual machine.
 
